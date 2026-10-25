@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+
+}
+body {background: rgb(97,130,154);
+    background: linear-gradient(90deg, rgba(97,130,154,1) 11%, rgba(17,171,203,1) 52%, rgba(66,180,167,1) 98%);
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+    padding: 0px 50px;
+    border-right: solid red;
+    position: fixed;
+    width: 100%;
+}
+
+header span{color: red;}
+header h2 {color: black;}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: ease 1s;
+    font-size: 19px;
+}
+header a:hover {
+    color: black;
+    font-size: 25px;
+}
+.carsour p {color: white;
+    
+}
+.carsour{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    padding: 0px 250px;
+    background-image: url(images/lap.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center;
+
+}
+.carsour span {color: red;}
+.carsour h2 {color: black;}
+
+.carsour a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: cadetblue;
+    padding: 0px 10px;
+    padding-bottom: 5PX;
+    border-radius: 10px;
+    font-size: 19px;
+    transition: ease 1s;
+}  
+.carsour a:hover{
+    font-size: 22px;
+    color: black;
+
+}
+
+.card{
+    
+    background-color: #cccccc98;
+
+    
+    padding: 0px 100px;
+}
+.card h2{
+    display: inline-block;
+    color: black;
+    margin-bottom: 20px;
+    border-bottom:solid black ;
+
+}
+.card .container{
+    
+    display: flex;
+    
+
+    
+}
+.card a{
+    display: inline-block;
+    text-decoration: none;
+    transition: ease 1s;
+    
+    
+}
+.card a:hover
+{
+    font-size: 20px;
+}
+.card .cards {
+    display: flex;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    border: solid black 0.5px;
+    margin-right: 20px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    min-width: 200;
+    min-height: 200;
+    margin-bottom: 25px;
+    margin-top: 40x;
+  
+    box-shadow: 0 10px 35px 0px gray;
+}
+.card .cards:hover
+{
+    color: red;
+}
+.up a {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(4, 110, 124);
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: ease 1s;
+    
+    
+}
+.up a:hover{
+    background-color: red;
+    color: white;
+}
+.contact{
+    padding: 100px;
+    background: rgb(97,130,154);
+    background: linear-gradient(90deg, rgba(97,130,154,1) 11%, rgba(17,171,203,1) 52%, rgba(66,180,167,1) 98%);
+    text-align: center;
+}
+.contact h2 {
+    display: inline-block;
+    
+    border-bottom: solid black;
+    margin-bottom: 50px;
+}
+.formm{
+    display: flex;
+}
+.form{  
+    
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+      
+}
+.form input{
+   
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: solid gray;
+    padding: 20px 5px 10px 10px;
+    font-size: 16px;
+    height: 60px;
+}
+/*.form input:hover~label ,
+.form input:valid~label {
+    bottom: 40%;
+
+    transform: translateY(-50%);
+    font-size: 10px;
+}*/
+.form label{
+    color: grey;
+    position: absolute;
+    transform: translateY(-30%);
+    font-size: 16px;
+    bottom: 40%;
+    right: 10px;
+
+    
+}
+.contact a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:black;
+    padding: 0px 100px ;
+    padding-bottom: 5PX;
+    border-radius: 10px;
+    
+    font-size: 19px;
+    transition: ease 1s;
+}  
+.contact a:hover{
+    font-size: 22px;
+    color: white;
+    background-color: gray;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 50px 50px 20px 20px;
+    margin-right: 20px;
+    width: 100%;
+    border-top: solid red;
+
+
+}
+footer a{
+    border-radius: 50%;
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    width:50PX ;
+    height:50PX ;
+    transition: ease 1s;
+    
+}
+footer a:hover {
+    border-radius: 15px 15px 15px 15px ;
+   
+}
+
+
+
+
+
+
+
+ 
+
+

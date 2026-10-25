@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    position: relative;
+    
+}
+body {
+    background: rgb(97,130,154);
+    background: linear-gradient(90deg, rgba(97,130,154,1) 11%, rgba(17,171,203,1) 52%, rgba(66,180,167,1) 98%);
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+    padding: 0px 50px;
+    border-right: solid red;
+    
+
+    width: 100%;
+}
+
+header span{color: red;}
+header h2 {color: black;}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: ease 1s;
+    font-size: 19px;
+}
+header a:hover {
+    color: black;
+    font-size: 25px;
+}
+.card{
+    
+    
+    padding: 0px 100px;
+}
+
+.card h2{
+    display: inline-block;
+    color: white;
+    margin-bottom: 20px;
+    border-bottom:solid white ;
+
+}
+.card .container{
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    
+}
+.card a{
+    display: inline-block;
+    text-decoration: none;
+    transition: ease 1s;
+    
+    
+}
+.card a:hover
+{
+    font-size: 20px;
+}
+.card .cards {
+    display: flex;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    border: solid black 0.5px;
+    margin-right: 20px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    min-width: 200;
+    min-height: 200;
+    margin-bottom: 25px;
+    margin-top: 40x;
+  
+    box-shadow: 0 10px 35px 0px black;
+}
+.card .cards:hover
+{
+    color: red;
+}
+.up a {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    
+    transition: ease 1s;
+    
+    
+}
+.up a:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
